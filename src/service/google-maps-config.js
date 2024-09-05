@@ -1,6 +1,6 @@
 import { Loader } from "@googlemaps/js-api-loader";
 
-export const apiKey = "AIzaSyAGcgSzgGei-CeNRZbI_p8sG_xJSgs5_R0";
+export const apiKey = import.meta.env.VITE_APP_API_KEY_MAP;
 const loader = new Loader({
   apiKey: apiKey,
   version: "3.46",
